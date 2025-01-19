@@ -2,43 +2,30 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #1a1a2e;
+    color: #fff;
 }
 
 header {
-    background-color: #fff;
-    border-bottom: 1px solid #ddd;
+    background-color: #16213e;
+    border-bottom: 1px solid #0f3460;
     padding: 1rem 0;
     text-align: center;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-}
-
-nav ul li {
-    margin: 0 1rem;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: 700;
+h1, h2, h3 {
+    color: #e94560;
 }
 
 .hero {
     padding: 2rem;
     text-align: center;
+    background-color: #16213e;
 }
 
 .btn {
     display: inline-block;
-    background-color: #333;
+    background-color: #e94560;
     color: #fff;
     padding: 0.5rem 1rem;
     border-radius: 4px;
@@ -59,16 +46,16 @@ section {
 }
 
 .project {
-    background-color: #fff;
+    background-color: #0f3460;
     padding: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     width: 300px;
     margin: 1rem;
 }
 
 footer {
-    background-color: #fff;
-    border-top: 1px solid #ddd;
+    background-color: #16213e;
+    border-top: 1px solid #0f3460;
     text-align: center;
     padding: 1rem;
     position: fixed;
